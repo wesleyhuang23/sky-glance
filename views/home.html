@@ -1,0 +1,16 @@
+<main>
+  <input placeholder="City" ng-model="city">
+  <div class="button-wrapper" ng-click="getLocalWeather(city)">
+    GLANCE
+  </div>
+
+<div class="weather-wrapper">
+  <div class="weather-card">
+    <ul>
+    <li>Current Temp:{{weather.main.temp}}</li>
+    <li>High:{{weather.main.temp_max}}</li>
+    <li>Low:{{weather.main.temp_min}}</li>
+  </ul>
+  </div>
+</div>
+</main>

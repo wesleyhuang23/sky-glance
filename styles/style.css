@@ -1,0 +1,8 @@
+.weather-wrapper{
+  background-color: yellow;
+
+}
+
+.weather-card{
+  display: inline-block;
+}
